@@ -1,0 +1,26 @@
+{
+  "name": "cours_bootstrap",
+  "version": "1.0.0",
+  "description": "essais avec bootstrap cours OpenClassrooms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toops61/cours_bootstrap.git"
+  },
+  "author": "Toops61",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sass": "^1.34.1",
+    "uuid": "^3.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/toops61/cours_bootstrap/issues"
+  },
+  "homepage": "https://github.com/toops61/cours_bootstrap#readme"
+}
