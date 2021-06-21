@@ -1,7 +1,6 @@
-.header {
-    color: $bootstrap-color;
-    &__title::before{
-        @include iconBrands($content: "\f836", $font-size: 3rem);
-        color: $bootstrap-color;
-    }
+header {
+    background-color: $bootstrap-color;
+}
+.boots-title::before{
+    @include iconBrands($content: "\f836", $font-size: 3rem);
 }
